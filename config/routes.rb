@@ -4,6 +4,8 @@ Rails.application.routes.draw do
   resources :charities
   resources :ferrets
 
-  root "ferrets#index"
+  # get 'ferrets', to: 'ferrets#index', as: 'egg'
+
+  # root "ferrets#index"
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
